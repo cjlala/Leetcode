@@ -1,5 +1,5 @@
-#Inverse Number
-题目：Reverse digits of an integer.<br>
+# Inverse Number
+<br>题目：Reverse digits of an integer.<br>
 Example1: x = 123, return 321<br>
 Example2: x = -123, return -321<br>
 
