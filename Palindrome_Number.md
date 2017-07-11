@@ -1,4 +1,4 @@
-#Palindrome Number（回文）
+# Palindrome Number（回文）
 题目：Determine whether an integer is a palindrome. Do this without extra space.
 
 这道题秒A，是真的简单。
