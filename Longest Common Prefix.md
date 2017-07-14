@@ -112,7 +112,7 @@ strs = [ |
 在这种情况下，我们看一下每一个数组的当前位置所对应的字符是否都一样，如果一样，就返回这个字符（如例子中返回的就是l），如果不一样，返回空字符串。<br>
 整个过程如下：
 ![avatar](https://segmentfault.com/img/bVLDl9?w=811&h=706/view.png)
-实现代码如下：
+<br>实现代码如下：
 <pre>
 class Solution {
 public:
