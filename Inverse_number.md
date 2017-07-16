@@ -26,7 +26,8 @@ int reverse(int x) {
         if(result > pow(2,31)-1) return 0;
         else return flag?-(int)result:(int)result;
     }
-    ```
+```
+
 上面这个方法说实话有点蠢，下面这个方法是代码量比较少的。思路其实是一样的。
 ```cpp
 int reverse(int x) {
