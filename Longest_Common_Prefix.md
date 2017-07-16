@@ -5,7 +5,7 @@
 
 实现思路：
 <br>最简单的思路就是暴力求解，但是暴力算法也有分写的简短的或者是写的复杂的。下面就是我一开始的复杂版代码。实现的思路就是使用一个字符串记录着公共前缀，在一个循环里面每一次取第一个字符串的字符存在记录的字符串内，再拿这个新加入的字符和后续的字符串的字符相比较。
-```
+```cpp
 class Solution {
 public:
    string longestCommonPrefix(vector<string>& strs){
@@ -44,7 +44,7 @@ public:
 ```
 
 下面是精简版的暴力，合理运用判断条件可以很大程度简化代码。这样的暴力算法是使用垂直比较字符串之间的字符来实现的，还有另外一种暴力是水平比较相邻的字符串，找出相邻的公共前缀，再将得到的公共前缀和下一个字符串比较一直到最后，这种方法使用java来写十分方便，但是使用c++并没有很好的函数直接调用，所以这里也不采用了。
-```
+```cpp
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -60,7 +60,7 @@ public:
 
 下面是两种官网上给出的比较好的方法，一个是分治法，另一个是二分查找。代码量较长但是效率较高。
 分治法的思想是将字符序列分成两半处理，找出分别两半的公共前缀最后再合并找公共前缀。
-```
+```cpp
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -119,7 +119,7 @@ strs = [ |
 整个过程如下：
 ![avatar](https://segmentfault.com/img/bVLDl9?w=811&h=706/view.png)
 <br>实现代码如下：
-```
+```cpp
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
