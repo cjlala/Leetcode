@@ -1,6 +1,8 @@
 # Remove Duplicates from Sorted Array
 
-题目：Given a sorted array, remove the duplicates in place such that each element appear only once and return the new length.
+题目：
+
+Given a sorted array, remove the duplicates in place such that each element appear only once and return the new length.
 
 Do not allocate extra space for another array, you must do this in place with constant memory.
 
@@ -20,5 +22,5 @@ int removeDuplicates(vector<int>& nums) {
       else it++;
     }  
     return nums.size();
-    }
+}
 ```
