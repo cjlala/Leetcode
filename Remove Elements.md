@@ -7,8 +7,8 @@ The order of elements can be changed. It doesn't matter what you leave beyond th
 
 **Example**:
 
-Given input array *nums* = ```[3,2,2,3]```, *val* = ```3
-```
+Given input array *nums* = ```[3,2,2,3]```, *val* = ```3```
+
 Your function should return length = 2, with the first two elements of nums being 2.
 
 实现思路：这一题和之前的*Remove Duplicates from Sorted Array*这一题非常相像，这一题要求的是给定一个数，在数组里面找到这一个数并且删掉。
